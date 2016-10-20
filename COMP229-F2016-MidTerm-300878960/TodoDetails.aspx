@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP229_F2016_MidTerm_300878960.TodoDetails" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+        <!--
+        Mudrak Patel
+        300878960
+        Comp229 Midterm
+        Fall 2016
+        Centennial College
+        -->
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
