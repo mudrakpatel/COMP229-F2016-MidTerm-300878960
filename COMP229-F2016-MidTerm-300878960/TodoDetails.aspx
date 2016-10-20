@@ -15,13 +15,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label" for="TodoNotesTextBox">First Name</label>
+                    <label class="control-label" for="TodoNotesTextBox">Todo Notes</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox"
                         placeholder="Todo Notes" required="true"></asp:TextBox>
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label" for="CompletedTextBox">First Name</label>
+                    <label class="control-label" for="CompletedTextBox">Completed ?</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="CompletedTextBox"
                         placeholder="True OR False?" required="true"></asp:TextBox>
                 </div>
