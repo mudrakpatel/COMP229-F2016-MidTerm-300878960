@@ -29,7 +29,7 @@ namespace COMP229_F2016_MidTerm_300878960
         }
 
         //GetTodo method
-        private void GetTodo()
+        protected void GetTodo()
         {
             //using the TodoContext
             using (TodoContext db = new TodoContext())
@@ -115,9 +115,9 @@ namespace COMP229_F2016_MidTerm_300878960
                             //Add this linkButton to the TodoGridView control
                             e.Row.Cells[index].Controls.Add(linkButton);
                         }
-                    }
-                }
-            }
-        }
-    }
-}
+                    }//End of for loop
+                }//End of secondary level if statement
+            }//End of outermost if(IsPostBack)
+        }//end of TodoGridView_RowDataBound method
+    }// end of partial class
+}// end of namespace

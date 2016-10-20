@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP229_F2016_MidTerm_300878960.TodoDetails" %>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-         <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
                 <h1>Todo Details</h1>
@@ -9,14 +10,20 @@
 
                 <div class="form-group">
                     <label class="control-label" for="TodoNameTextBox">Todo Name</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNameTextBox" 
+                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNameTextBox"
                         placeholder="Todo Name" required="true"></asp:TextBox>
                 </div>
 
                 <div class="form-group">
                     <label class="control-label" for="TodoNotesTextBox">First Name</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox" 
+                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox"
                         placeholder="Todo Notes" required="true"></asp:TextBox>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="CompletedTextBox">First Name</label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="CompletedTextBox"
+                        placeholder="True OR False?" required="true"></asp:TextBox>
                 </div>
 
                 <div class="text-right">
