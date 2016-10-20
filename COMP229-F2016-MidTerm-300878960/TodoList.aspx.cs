@@ -119,5 +119,14 @@ namespace COMP229_F2016_MidTerm_300878960
                 }//End of secondary level if statement
             }//End of outermost if(IsPostBack)
         }//end of TodoGridView_RowDataBound method
+
+        protected void PageSizeDropDownList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // set the new Page size
+            TodoGridView.PageSize = Convert.ToInt32(PageSizeDropDownList.SelectedValue);
+
+            // refresh the GridView
+            this.GetTodo();
+        }//End of PageSizeDropDownList_SelectedIndexChanged method
     }// end of partial class
 }// end of namespace
