@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
                 <h1>Student List</h1>
-                <a href="StudentDetails.aspx" class="btn btn-success btn-sm">
-                    <i class="fa fa-plus"></i>Add Student
+                <a href="TodoDetails.aspx" class="btn btn-success btn-sm">
+                    <i class="fa fa-plus"></i>Add new task
                 </a>
 
                 <div>
